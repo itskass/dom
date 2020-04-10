@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dennwc/dom"
-	"github.com/dennwc/dom/storage"
-	"github.com/dennwc/dom/svg"
+	"github.com/itskass/dom"
+	"github.com/itskass/dom/storage"
+	"github.com/itskass/dom/svg"
 )
 
 func init() {

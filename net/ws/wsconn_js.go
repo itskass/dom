@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dennwc/dom/js"
+	"github.com/itskass/dom/js"
 )
 
 var errClosed = errors.New("ws: connection closed")

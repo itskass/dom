@@ -5,8 +5,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/dennwc/dom"
-	"github.com/dennwc/dom/js"
+	"github.com/itskass/dom"
+	"github.com/itskass/dom/js"
 )
 
 var required = make(map[string]error)

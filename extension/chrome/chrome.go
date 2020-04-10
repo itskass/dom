@@ -1,6 +1,6 @@
 package chrome
 
-import "github.com/dennwc/dom/js"
+import "github.com/itskass/dom/js"
 
 var (
 	chrome  = js.Get("chrome")

@@ -3,7 +3,7 @@ package dom
 import (
 	"image"
 
-	"github.com/dennwc/dom/js"
+	"github.com/itskass/dom/js"
 )
 
 var (

@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dennwc/dom/internal/goenv"
+	"github.com/itskass/dom/internal/goenv"
 )
 
 var (

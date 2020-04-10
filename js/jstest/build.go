@@ -10,7 +10,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/dennwc/dom/internal/goenv"
+	"github.com/itskass/dom/internal/goenv"
 )
 
 const (

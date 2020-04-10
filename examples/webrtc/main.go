@@ -7,7 +7,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/dennwc/dom/net/webrtc"
+	"github.com/itskass/dom/net/webrtc"
 )
 
 func main() {

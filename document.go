@@ -1,6 +1,6 @@
 package dom
 
-import "github.com/dennwc/dom/js"
+import "github.com/itskass/dom/js"
 
 func GetDocument() *Document {
 	doc := js.Get("document")

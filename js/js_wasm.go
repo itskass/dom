@@ -41,9 +41,13 @@ func funcOf(fnc func(this Ref, refs []Ref) interface{}) Func {
 }
 
 func typedArrayOf(slice interface{}) Ref {
-	return js.TypedArrayOf(slice).Value
+	//	return js.TypedArrayOf(slice).Value
+	var ref js.Value
+	js.CopyBytesToJS(ref, slice.([]byte))
+	return ref
 }
 
 func releaseTypedArray(v Ref) {
-	js.TypedArray{v}.Release()
+	//	js.TypedArray{v}.Release()
+	v = js.Null()
 }

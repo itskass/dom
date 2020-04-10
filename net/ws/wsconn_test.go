@@ -3,7 +3,7 @@
 package ws
 
 import (
-	"github.com/dennwc/dom/js/jstest"
+	"github.com/itskass/dom/js/jstest"
 	"github.com/stretchr/testify/require"
 	"net/http"
 	"net/rpc"

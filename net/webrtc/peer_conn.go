@@ -8,8 +8,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/dennwc/dom"
-	"github.com/dennwc/dom/js"
+	"github.com/itskass/dom"
+	"github.com/itskass/dom/js"
 )
 
 const debug = false
